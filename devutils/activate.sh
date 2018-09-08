@@ -37,4 +37,5 @@ if [ -n "$VIRTUAL_ENV" ]; then
 	echocolor "Activated $(python -V) virtual environment ${VIRTUAL_ENV}."
 else
 	echoerror "Could not activate virtual environment '${VENV_NAME}'."
+	exit 1
 fi
