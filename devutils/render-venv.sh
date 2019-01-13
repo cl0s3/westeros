@@ -49,9 +49,5 @@ else
 fi
 
 echorun "pip install --upgrade pip"
-echorun "pip install wheel"
-
-echorun "pip install jupyter"
-echorun "pip install ipdb"
-echorun "pip install -r requirements.txt"
+echorun "pip install -r ${rootdir}/devutils/requirements.txt"
 echocolor "Done."
