@@ -24,7 +24,7 @@ if [[ "$(basename -- "$0")" == "$(basename -- ${BASH_SOURCE[0]})" ]]; then
 fi
 
 if [[ $# -eq 0 ]]; then
-	VENV_NAME="westeros-venv"
+	VENV_NAME="westeros"
 else
 	VENV_NAME="$1"
 fi

@@ -22,7 +22,7 @@ rootdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/..
 cd ${rootdir}
 
 if [[ $# -eq 0 ]]; then
-	VENV_NAME="westeros-venv"
+	VENV_NAME="westeros"
 else
 	VENV_NAME="$1"
 fi
